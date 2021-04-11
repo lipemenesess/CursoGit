@@ -1,0 +1,90 @@
+			###Comandos Git
+
+
+
+--------------------------------------------------------------------------------
+Instalar o git
+>Sudo apt-get install git
+
+Verifica a conexão com a chave ssh
+>>>
+
+Configura o username e o email para global
+git config --global user.name "login do Git"
+git config --global user.email "email do Git"
+--------------------------------------------------------------------------------
+
+Primeiros comandos - repositório local
+
+git helP <<comand>>
+git init "Nome do arquivo" 		- cria no diretório atual
+git init "Nome do diretório"	- cria um novo diretório
+ls -al 							- lista todos os arquivos do repositório
+gedit "nome do arquivo"			- cria arquivos na pasta do repositório
+nano "nome do arquivo"			- cria arquivos na pasta do repositório
+git add "Nome do arquivo"		- Adiciona o arquivo ao repositório "atualiza"
+git Commit 						- Atualiza os arquivos para o diretório
+git status						- Verifica o status do repositório
+git log 						- Verifica informações de commit - "mensagem, data, usuário" 
+--------------------------------------------------------------------------------
+
+Criando o repositório no Github
+
+Acessa a conta e cria o novo repositório
+git remote "caminho"			- Para enviar o diretório para o git hub
+git push						- Para enviar os commits
+git push -u origin master 		- Configurar a branch master
+
+
+
+---------------------------------------------------------------------------------
+
+Após criar o rep.
+
+>clonar o rep.
+git clone "endereço do rep"
+
+>Configurar a conta que vai utilizar na maquina
+git config --global user.email "felipe.santos@dcomp.ufs.br"
+git config --global user.name "lipemenesess"
+
+
+>Adicionar arquivo
+git add "nome do arquivo"
+git add . - adiciona todos os arquivos da pasta
+
+>Comentar o que está sendo alterado - "Commit"
+git commit -m "alteraçõe no arquivo"
+
+>Empurrar para o repositório
+git push origin master - loga com usuário na 1ª vez
+
+>git status
+mostrar os status dos arquivos. Se já estão slavos ou não.
+
+
+
+
+
+
+			###Comandos Git
+
+Após criar o rep.
+
+>clonar o rep.
+git clone "endereço do rep"
+
+>Configurar a conta que vai utilizar na maquina
+git config --global user.email "felipe.santos@dcomp.ufs.br"
+git config --global user.name "lipemenesess"
+
+
+>Adicionar arquivo
+git add "nome do arquivo"
+git add . - adiciona todos os arquivos da pasta
+
+>Comentar o que está sendo alterado - "Commit"
+git commit -m "alteraçõe no arquivo"
+
+>Empurrar para o repositório
+git push origin master - loga com usuário na 1ª vez
